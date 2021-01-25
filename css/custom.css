@@ -1,0 +1,109 @@
+/* Header section */
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #D9D9D9;
+    height: 90px;
+}
+header .container > img {
+    height: 90px;
+}
+
+.menu {
+    float: right;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.menu > a {
+    padding: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+.menu > a:last-of-type{
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #519EFF;
+}
+
+.menu > a:hover {
+    color: #D9D9D9;
+}
+
+.menu > a:last-of-type:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* Main Section */
+main {
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(../img/Flatpack-background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+div.row-short h1 {
+    margin-top: 200px;
+    font-size: 56px;
+    line-height: 60px;
+    text-transform: uppercase;
+
+}
+
+.segment {
+    background-color: white;
+    width:60px;
+    height:5px;
+    margin:25px 0;
+    margin-left:auto;
+    margin-right:auto
+}
+
+div.row-short p {
+    color: #D9D9D9;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+div.row-short a {
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+div.row-short a:hover {
+    background-color: white;
+    color: #519EFF;
+}
+
+/* Headline section */
+.headline {
+    background-color: #F3F3F3;
+}
+
+/* Video Section */
+.videoSection {
+    background-color: #F3F3F3;
+}
