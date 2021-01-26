@@ -139,8 +139,51 @@ div.row-short a:hover {
     color: #244B7F;
 }
 
+/* Picture Section */
+.container.pSection {
+    text-align: center;
+    padding: 100px;
+}
 
+.firstColum {
+    display: inline-block;
+    width: 30%;
+}
 
+.secondColum {
+    display: inline-block;
+    width: 30%;
+}
+
+.thirdColum {
+    display: inline-block;
+    width: 30%;
+}
+
+.container.pSection .row img {
+    width: 250px;
+    height: 220px;
+}
+
+.container.pSection p {
+    color: #999999;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container.pSection a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #519EFF;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.container.pSection a:hover {
+    background-color: #244B7F;
+}
 
 
 /* Video Section */
