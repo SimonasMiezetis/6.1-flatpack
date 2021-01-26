@@ -1,6 +1,10 @@
 body,
 body * {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bck-grey {
+    background-color: #F6F6F6;
 }
 
 .container {

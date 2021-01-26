@@ -99,9 +99,49 @@ div.row-short a:hover {
 }
 
 /* Headline section */
-.headline {
-    background-color: #F3F3F3;
+.container.bck-grey > div {
+    padding: 30px;
 }
+
+.leftHeadline {
+    display: inline-block;
+    width: 49%;
+}
+
+.rightHeadline {
+    display: inline-block;
+    width: 49%;
+    float: right;
+}
+
+.row h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.row p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+
+.container.bck-grey .row  a {
+    text-decoration: none;
+    color: #519EFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.container.bck-grey .row  a:hover {
+    color: #244B7F;
+}
+
+
+
+
 
 /* Video Section */
 .videoSection {
